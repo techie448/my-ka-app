@@ -1,0 +1,42 @@
+{
+  "customers" : [
+    {
+      "id": "1",
+      "name": "Diego Lamilla",
+      "phone": "(778) 237-8598",
+      "email": "",
+      "cars": [{
+        "id": "1",
+        "VIN": "3N1AB7AP9HL683224",
+        "model": "Nissan",
+        "make": "Sentra",
+        "year": 2017,
+        "plate": "",
+        "color": "RED",
+        "mileage": "",
+        "ROs": [
+          {
+            "id": "1",
+            "repairAmount": 4500,
+            "claims": [{
+              "id": "1",
+              "insCompany": "AVIVA",
+              "insAppraiser": "James",
+              "insAppraiserPhone": 14564654,
+              "insAppraiserEmail": "",
+              "insAdjuster": "Malik",
+              "insAdjusterPhone": 544654654,
+              "insAdjusterEmail": "",
+              "claimNum": "3145sad54",
+              "originalAmount": 4000
+            }],
+            "supplements": [{
+              "claimId": "1",
+              "amount": 500
+            }]
+          }
+        ]
+      }]
+    }
+  ]
+}
