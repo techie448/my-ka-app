@@ -1,0 +1,3 @@
+<div *ngFor="let customer of customers">
+  <p><a [routerLink]="['/customer',customer?.id]"> {{customer?.name}}</a></p>
+</div>
