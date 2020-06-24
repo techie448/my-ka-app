@@ -15,8 +15,6 @@ export class CustomerComponent implements OnInit {
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.activatedRoute.paramMap
-      .pipe(switchMap(params: Params) => this.)
   }
 
 }
